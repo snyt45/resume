@@ -1,0 +1,107 @@
+/* 共通設定 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap");
+
+body {
+  font-size: 12px;
+  font-family: "Noto Serif JP", sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+h1:first-child {
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 5px;
+}
+
+th {
+  text-align: left;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  padding: 10px;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #333;
+}
+
+/* 基本情報 */
+.basic-info th:first-child {
+  width: 100px;
+}
+
+.basic-info th:nth-child(2) {
+  width: 150px;
+}
+
+/* 職務経歴（詳細） */
+.career-detail .company .company-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  padding: 10px;
+  font-weight: bold;
+  border-top: 3px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.career-detail .job .job-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.career-detail .job .job-details .sub-header {
+  font-weight: bold;
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+.career-detail .job .job-details .sub-header:nth-child(n + 2) {
+  margin-top: 10px;
+}
+
+.career-detail .job {
+  margin-top: 10px;
+}
