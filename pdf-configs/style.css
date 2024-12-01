@@ -57,6 +57,7 @@ ul {
 
 p {
   margin: 0;
+  line-height: 1.5;
 }
 
 .highlight {
@@ -80,22 +81,21 @@ p {
   background-color: #f7f7f7;
   padding: 10px;
   font-weight: bold;
-  border-top: 3px solid #ddd;
+  border-top: 5px solid #ddd;
   margin-bottom: 10px;
 }
 
 .career-detail .job .job-header {
   display: flex;
   justify-content: space-between;
+  background-color: #f7f7f7;
   padding: 10px;
   font-weight: bold;
-  border-bottom: 1px solid #ddd;
 }
 
 .career-detail .job .job-details .sub-header {
   font-weight: bold;
   margin: 5px 0;
-  font-size: 1.1em;
 }
 
 .career-detail .job .job-details .sub-header:nth-child(n + 2) {

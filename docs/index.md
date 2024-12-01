@@ -108,11 +108,12 @@
           <p><span class="highlight">フレームワーク</span>: Ruby on Rails 7系、React</p>
           <p><span class="highlight">データベース</span>: PostgreSQL</p>
           <p><span class="highlight">情報共有</span>: Slack, Notion, Google Drive, Gather</p>
-          <p><span class="highlight">その他</span>: Terraform, AWS, GitHubActions, Docker, BugSnag, Fullstory</p>
+          <p><span class="highlight">その他</span>: Terraform, AWS, ECS, GitHubActions, Docker, BugSnag, Fullstory</p>
           <div class="sub-header">【担当業務】</div>
           <ul>
             <li>Rails 7 系、Ruby 3.3 系へのバージョンアップ対応</li>
             <li>React によるフロントの画面、機能実装</li>
+            <li>Rails で GraphQL の Query、Mutation の作成</li>
             <li>日々の練習状況に応じた反復ロジック機能実装</li>
             <li>Stripeの決済基盤構築、Webhook対応、Slack通知</li>
             <li>クラブの月次売上レポートバッチ、残高レポートによるリコンサイル（突合チェック）バッチ作成</li>
@@ -122,6 +123,92 @@
             <li>ECSのオートスケーリング対応</li>
             <li>リリース運用基盤構築（リリースPR自動化、リリースノート自動化、手順整備）</li>
             <li>コスト削減のためステージング環境の自動停止対応（ALB, ECS, RDS）</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">スポーツオンラインパーソナルコーチングサービス</div>
+          <div class="job-period">2021年12月 ～ 2024年3月（期間：2年4ヶ月）</div>
+        </div>
+        <div class="job-details">
+          <div class="sub-header">【プロジェクト概要】</div>
+          <p>教えたい人と教わりたい人をマッチングしスポーツのオンラインコーチングを届けるサービスの設計・開発。<br />（デベロップパートナー事業と兼業、週1～週2での開発）。</p>
+          <div class="sub-header">【プロジェクト規模】</div>
+          <p>3～4名での開発</p>
+          <div class="sub-header">【役割】</div>
+          <p>設計、コーディング、レビュー</p>
+          <div class="sub-header">【使用技術】</div>
+          <p> <span class="highlight">言語</span>: Ruby, TypeScript, GraphQL</p>
+          <p><span class="highlight">フレームワーク</span>: Ruby on Rails 6系、React</p>
+          <p><span class="highlight">データベース</span>: PostgreSQL</p>
+          <p><span class="highlight">情報共有</span>: Slack, Notion, Google Drive, Gather</p>
+          <p><span class="highlight">その他</span>: Terraform, AWS, ECS, GitHubActions, Docker</p>
+          <div class="sub-header">【担当業務】</div>
+          <ul>
+            <li>APIサーバをDockerで環境構築、GitHub Actionsの整備</li>
+            <li>graphql-deviseを使ったログイン認証機能の実装</li>
+            <li>GraphQLのエラーハンドリングの設計</li>
+            <li>React によるフロントの画面、機能実装</li>
+            <li>Rails で GraphQL の Query、Mutation の作成</li>
+            <li>ActiveStorageを使った動画アップロード・AWS MediaConvertを使った動画圧縮</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">企業向け 研究リソースシェアリングシステム<br />（デベロップパートナー事業）</div>
+          <div class="job-period">2024年1月 ～ 2024年3月（期間：3ヶ月）</div>
+        </div>
+        <div class="job-details">
+          <div class="sub-header">【プロジェクト概要】</div>
+          <p>日本全国の研究施設・ラボ（レンタルラボ）・実験室のシェアリングサービスの開発・運用。</p>
+          <div class="sub-header">【プロジェクト規模】</div>
+          <p>5名でのアジャイル開発</p>
+          <div class="sub-header">【役割】</div>
+          <p>設計、コーディング、レビュー</p>
+          <div class="sub-header">【使用技術】</div>
+          <p> <span class="highlight">言語</span>: Ruby, JavaScript, GraphQL</p>
+          <p><span class="highlight">フレームワーク</span>: Ruby on Rails 5系、jQuery</p>
+          <p><span class="highlight">データベース</span>: PostgreSQL</p>
+          <p><span class="highlight">情報共有</span>: Slack, Notion, Google Drive, Google Meet</p>
+          <p><span class="highlight">その他</span>: AWS, EC2, Circle CI, Docker, Datadog</p>
+          <div class="sub-header">【担当業務】</div>
+          <ul>
+            <li>「機器訪問利用」カテゴリページの追加</li>
+            <li>「可能な実験例」「用途例」のハッシュタグ化（キーワード検索リンク化）</li>
+            <li>会員登録やリソース問い合わせで正しくHubSpotに連携されていない件の調査</li>
+            <li>会員登録・更新時にHubSpotに正しく情報を連携する</li>
+          </ul>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">企業向け 予算管理システム<br />（デベロップパートナー事業）</div>
+          <div class="job-period">2023年1月 ～ 2023年12月（期間：1年）</div>
+        </div>
+        <div class="job-details">
+          <div class="sub-header">【プロジェクト概要】</div>
+          <p>企業の予実管理業務を一元管理するサービスの開発・運用。</p>
+          <div class="sub-header">【プロジェクト規模】</div>
+          <p>8名でのアジャイル開発</p>
+          <div class="sub-header">【役割】</div>
+          <p>設計、コーディング</p>
+          <div class="sub-header">【使用技術】</div>
+          <p> <span class="highlight">言語</span>: Ruby, TypeScript, JavaScript</p>
+          <p><span class="highlight">フレームワーク</span>: Ruby on Rails 7系、React</p>
+          <p><span class="highlight">データベース</span>: PostgreSQL</p>
+          <p><span class="highlight">情報共有</span>: Slack, Notion, kibela, Google Drive, Google Meet</p>
+          <p><span class="highlight">その他</span>: Terraform, AWS, ECS, GitHubActions, Docker, BugSnag, FullStory, Datadog, Mixpanel, Intercom</p>
+          <div class="sub-header">【担当業務】</div>
+          <ul>
+            <li>P/L分析レポートのハイライト機能</li>
+            <li>P/L分析レポートの多次元表の自動 非表示機能実装</li>
+            <li>申請・承認機能のバックエンド実装（明細一覧、コメント機能）</li>
+            <li>申請・承認機能の承認・却下・差し戻しの通知処理実装（Websocket）</li>
+            <li>Ruby3.1系から3.2系へのバージョンアップ</li>
+            <li>Rails6系 -> 7系へのconfig.load_defaultsの追従</li>
+            <li>RailsのGemバージョンアップ対応</li>
           </ul>
         </div>
       </div>
