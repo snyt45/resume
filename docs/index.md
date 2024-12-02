@@ -49,7 +49,7 @@
         <td>株式会社 diddyworks</td>
         <td>2021/6 ～現在</td>
         <td>
-          デベロップパートナー事業で企業向け健康管理システム、企業向け予算管理システム、企業向け研究リソースシェアリングシステムの開発に従事。自社開発でスポーツ施設管理システムに従事。現在、自社開発でスポーツオンラインコーチングサービスの開発に取り組む
+          デベロップパートナー事業で企業向け健康管理システム、企業向け予算管理システム、企業向け研究リソースシェアリングシステムの開発に従事。自社開発でスポーツ施設管理システムに従事。現在、自社開発でスポーツオンラインコーチングプラットフォームの開発に取り組む
         </td>
       </tr>
       <tr>
@@ -85,7 +85,7 @@
       </div>
       <div class="company-details">
         <p>
-          <span class="highlight">事業内容</span>: スポーツオンラインコーチングサービスの開発・運用、デベロップパートナー事業<br />
+          <span class="highlight">事業内容</span>: スポーツオンラインコーチングプラットフォームの開発・運用、デベロップパートナー事業<br />
           <span class="highlight">資本金</span>: 100万円&emsp;
           <span class="highlight">従業員数</span>: 約10名&emsp;
           <span class="highlight">雇用形態</span>: 正社員&emsp;
@@ -93,12 +93,12 @@
       </div>
       <div class="job">
         <div class="job-header">
-          <div class="job-title">スポーツオンラインコーチングサービス</div>
+          <div class="job-title">スポーツオンラインコーチングプラットフォーム</div>
           <div class="job-period">2024年4月 ～ 現在（本番稼働は2024年12月～）</div>
         </div>
         <div class="job-details">
           <div class="sub-header">【プロジェクト概要】</div>
-          <p>スポーツの動画コースを受講できるオンラインコーチングサービスの設計・開発。</p>
+          <p>教えたい人がスポーツの動画コースを作成して、教わりたい人がコースを受講できるオンラインコーチングプラットフォームの設計・開発。</p>
           <div class="sub-header">【プロジェクト規模】</div>
           <p>3～4名での開発</p>
           <div class="sub-header">【役割】</div>
@@ -128,12 +128,12 @@
       </div>
       <div class="job">
         <div class="job-header">
-          <div class="job-title">スポーツオンラインパーソナルコーチングサービス</div>
+          <div class="job-title">スポーツオンラインパーソナルコーチングプラットフォーム</div>
           <div class="job-period">2021年12月 ～ 2024年3月（期間：2年4ヶ月）</div>
         </div>
         <div class="job-details">
           <div class="sub-header">【プロジェクト概要】</div>
-          <p>教えたい人と教わりたい人をマッチングしスポーツのオンラインコーチングを届けるサービスの設計・開発。<br />（デベロップパートナー事業と兼業、週1～週2での開発）。</p>
+          <p>教えたい人と教わりたい人をマッチングしスポーツのオンラインコーチングを届けるプラットフォームの設計・開発。<br />（デベロップパートナー事業と兼業、週1～週2での開発）。</p>
           <div class="sub-header">【プロジェクト規模】</div>
           <p>3～4名での開発</p>
           <div class="sub-header">【役割】</div>
