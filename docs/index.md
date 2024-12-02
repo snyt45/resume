@@ -1,8 +1,20 @@
 <body>
   <h1>職務経歴書</h1>
 
+  <div class="toc">
+    <h2>目次</h2>
+    <ul>
+      <li><a href="#basic-info">基本情報</a></li>
+      <li><a href="#experience">職務要約</a></li>
+      <li><a href="#skills">得意とする分野・スキル</a></li>
+      <li><a href="#career-summary">職務経歴（サマリ）</a></li>
+      <li><a href="#career-detail-web">職務経歴（詳細） ～Webエンジニア以降～</a></li>
+      <li><a href="#career-detail-pre-web">職務経歴（詳細） ～Webエンジニア以前～</a></li>
+    </ul>
+  </div>
+
   <div class="basic-info">
-    <h2>■ 基本情報</h2>
+    <h2 id="basic-info">■ 基本情報</h2>
     <table>
       <tr>
         <th>項目</th>
@@ -28,17 +40,17 @@
   </div>
 
   <div class="experience">
-    <h2>■ 職務要約</h2>
+    <h2 id="experience">■ 職務要約</h2>
   </div>
 
   <div class="skills">
-    <h2>■ 得意とする分野・スキル</h2>
+    <h2 id="skills">■ 得意とする分野・スキル</h2>
   </div>
 
   <div class="page-break"></div>
 
   <div class="career-summary">
-    <h2>■ 職務経歴（サマリ）</h2>
+    <h2 id="career-summary">■ 職務経歴（サマリ）</h2>
     <table>
       <tr>
         <th>会社名</th>
@@ -77,7 +89,7 @@
   </div>
 
   <div class="career-detail">
-    <h2>■ 職務経歴（詳細）</h2>
+    <h2 id="career-detail-web">■ 職務経歴（詳細） ～Webエンジニア以降～</h2>
     <div class="company">
       <div class="company-header">
         <div class="company-name">株式会社diddyworks</div>
@@ -395,6 +407,129 @@
             <li>社員へのSlack通知 （定期処理実行をGASで実装）  / メンバー登録バッチ（Slack APIイベント連動）の実装</li>
             <li>勤怠管理システムのDocker開発環境構築手順書作成 （PHP5.3.3 + FuelPHP + Apache + MySQL + phpMyAdmin）<br />※社内別システムとの共用テーブルがあり、共用テーブル改修のため</li>
           </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="career-detail">
+    <h2 id="career-detail-pre-web">■ 職務経歴（詳細） ～Webエンジニア以前～</h2>
+    <div class="company">
+      <div class="company-header">
+        <div class="company-name">株式会社オロ（株式会社オロ宮崎）</div>
+        <div class="employment-period">2014年8月 ～ 2019年1月</div>
+      </div>
+      <div class="company-details">
+        <p>
+          <span class="highlight">事業内容</span>： Webサイト構築・運用、Web広告運用、Webサイト・アプリ検証 他<br />
+          <span class="highlight">資本金</span>： 11億9300万円&emsp;
+          <span class="highlight">従業員数</span>： 約300名～500名&emsp;
+          <span class="highlight">雇用形態</span>： 正社員&emsp;
+        </p>
+        <p>
+          <b>2016 年 12 月 株式会社オロの分社化により､株式会社オロ宮崎へ転籍。<br />以下は株式会社オロ宮崎の企業情報</b>
+        </p>
+        <p>
+          <span class="highlight">事業内容</span>： Webサイト構築・運用、Web広告運用、Webサイト・アプリ検証 他<br />
+          <span class="highlight">資本金</span>： 1,000万&emsp;
+          <span class="highlight">従業員数</span>： 約100名&emsp;
+          <span class="highlight">雇用形態</span>： 正社員&emsp;
+        </p>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">大手小売企業様と大手自動製造メーカー様のWebサイト広告運用業務</div>
+          <div class="job-period">2017年10月 ～ 2019年1月（期間：1年4ヶ月）</div>
+        </div>
+        <div class="job-details">
+          <div class="sub-header">【チーム】</div>
+          <p>3～10名</p>
+          <div class="sub-header">【役割】</div>
+          <p>チームリーダー</p>
+          <div class="sub-header">【担当業務】</div>
+          <p>大手小売企業様と大手自動車製造メーカー様の Web 広告運用業務｡本社のさらなる Web 広告運用業務拡大に伴い､大手自動車製造メーカー様の Web 広告運用業務も受け入れ実施｡同じく､Web 広告の設定･入稿〜運用〜レポート作成までを担当｡また､チームリーダーとしてリソース管理､メンバーの遅刻･欠勤管理､チーム KPI 管理､評価面談､面接なども担当｡</p>
+          <div class="sub-header">【受賞歴】</div>
+          <p>ORO Miyazaki Awards 2017(MVP 賞)</p>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">大手小売企業様のWebサイト広告運用業務</div>
+          <div class="job-period">2016年4月 ～ 2017年9月（期間：1年6ヶ月）</div>
+        </div>
+        <div class="job-details">
+          <div class="sub-header">【チーム】</div>
+          <p>1～3名</p>
+          <div class="sub-header">【役割】</div>
+          <p>メンバー</p>
+          <div class="sub-header">【担当業務】</div>
+          <p>大手小売企業様の Web 広告運用業務｡本社の Web 広告運用業務拡大に伴い､本社と連携し宮崎での業務受け入れを実施｡主に Web 広告の設定･入稿〜運用〜レポート作成までを担当｡</p>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">大手小売企業様のWebサイト更新業務（更新ディレクター）</div>
+          <div class="job-period">2014年11月 ～ 2016年3月（期間：2年5ヶ月）</div>
+        </div>
+        <div class="job-details">
+          <div class="sub-header">【チーム】</div>
+          <p>6～8名</p>
+          <div class="sub-header">【役割】</div>
+          <p>メンバー</p>
+          <div class="sub-header">【担当業務】</div>
+          <p>大手小売企業様の Web サイト更新業務｡更新ディレクターとして､主に担当モールの入稿管理､作業依頼､お客様とのメール･電話対応を担当｡オペレーターの業務も含む｡</p>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">大手小売企業様のWebサイト更新業務（オペレーター）</div>
+          <div class="job-period">2014年8月 ～ 2014年10月（期間：3ヶ月）</div>
+        </div>
+        <div class="job-details">
+          <div class="sub-header">【チーム】</div>
+          <p>6名</p>
+          <div class="sub-header">【役割】</div>
+          <p>メンバー</p>
+          <div class="sub-header">【担当業務】</div>
+          <p>大手小売企業様の Web サイト更新業務｡オペレーターとして､主に作業部分を担当｡具体的には､店舗情報や採用･イベント情報などのテキスト打ち込みやCMSへの流し込み｡簡単な画像加工､作業のレビュー等｡</p>
+        </div>
+      </div>
+    </div>
+    <div class="company">
+      <div class="company-header">
+        <div class="company-name">東京急行電鉄株式会社</div>
+        <div class="employment-period">2010年4月 ～ 2013年9月</div>
+      </div>
+      <div class="company-details">
+        <p>
+          <span class="highlight">事業内容</span>： 交通事業、不動産事業、生活サービス事業<br />
+          <span class="highlight">資本金</span>： 1,217億2400万円&emsp;
+          <span class="highlight">従業員数</span>： 約4,000名～5,000名&emsp;
+          <span class="highlight">雇用形態</span>： 正社員&emsp;
+        </p>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">電気部 設備区</div>
+          <div class="job-period">2012年4月 ～ 2013年9月（期間：1年6ヶ月）</div>
+        </div>
+        <div class="job-details">
+          <div class="sub-header">【チーム】</div>
+          <p>8名</p>
+          <div class="sub-header">【役割】</div>
+          <p>メンバー</p>
+          <div class="sub-header">【担当業務】</div>
+          <p>駅の照明設備やエスカレーター、エレベーターなどの機器に電力を供給する設備の保守･点検業務に従事｡</p>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <div class="job-title">電気部 研修</div>
+          <div class="job-period">2010年4月 ～ 2012年3月（期間：2年）</div>
+        </div>
+        <div class="job-details">
+          <div class="sub-header">【担当業務】</div>
+          <p>研修の一環で､駅務員と電気部 5 部署を経験｡駅務員では､お客様のご案内などを経験｡電気部では様々な部署にて鉄道における電気設備の保守･点検業務を経験｡</p>
         </div>
       </div>
     </div>
