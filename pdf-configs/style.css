@@ -2,106 +2,123 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap");
 
 body {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Noto Serif JP", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
-  margin: 0;
-  padding: 0;
-}
-
-h1:first-child {
+  margin: 0 0 20px;
   text-align: center;
+  color: #2c3e50;
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   margin-top: 40px;
+  color: #34495e;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   margin-top: 20px;
+  color: #34495e;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #34495e;
 }
 
 table {
+  width: 100%;
   border-collapse: collapse;
+  margin-bottom: 20px;
 }
 
 td,
 th {
-  padding: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
 }
 
 th {
   text-align: left;
   background-color: #f7f7f7;
-  border-bottom: 1px solid #ddd;
   font-weight: bold;
-  padding: 10px;
-}
-
-td {
-  border-bottom: 1px solid #ddd;
 }
 
 ul {
+  margin: 10px 0;
   padding-left: 20px;
-  margin: 0;
 }
 
 p {
-  margin: 0;
+  margin: 10px 0;
   line-height: 1.5;
 }
 
-.highlight {
-  font-weight: bold;
-  color: #333;
+/* 職務経歴（サマリ） */
+.career-summary th:first-child {
+  width: 140px;
 }
 
-/* 基本情報 */
-.basic-info th:first-child {
-  width: 100px;
-}
-
-.basic-info th:nth-child(2) {
-  width: 150px;
+.career-summary th:nth-child(2) {
+  width: 70px;
 }
 
 /* 職務経歴（詳細） */
+.highlight {
+  font-weight: bold;
+}
+
 .career-detail .company .company-header {
   display: flex;
   justify-content: space-between;
-  background-color: #f7f7f7;
-  padding: 10px;
-  font-weight: bold;
-  border-top: 5px solid #ddd;
   margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.career-detail .company .company-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #34495e;
+  padding: 10px 15px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
 }
 
 .career-detail .job .job-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #f7f7f7;
-  padding: 10px;
   font-weight: bold;
+  margin-top: 20px;
+  padding: 8px 12px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #34495e;
+}
+
+.career-detail .job .job-header .job-title {
+  font-size: 18px;
+  color: #34495e;
+  margin-bottom: 5px;
+}
+
+.career-detail .job .job-header .job-period {
+  font-size: 14px;
+  color: #34495e;
 }
 
 .career-detail .job .job-details .sub-header {
   font-weight: bold;
-  margin: 5px 0;
-}
-
-.career-detail .job .job-details .sub-header:nth-child(n + 2) {
-  margin-top: 10px;
-}
-
-.career-detail .job {
   margin-top: 10px;
 }
