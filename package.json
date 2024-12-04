@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/snyt45/resume.git"
   },
+  "scripts": {
+    "build:pdf": "md-to-pdf docs/index.md --config-file ./pdf-configs/config.js"
+  },
   "devDependencies": {
     "md-to-pdf": "^5.2.4"
   }
