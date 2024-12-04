@@ -1,0 +1,10 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "snyt45の職務経歴書",
+  "author": "snyt45",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/snyt45/resume.git"
+  }
+}
