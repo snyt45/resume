@@ -1,0 +1,56 @@
+name: build pdf
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: build pdf and upload release
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Generate calver tag
+        id: calver
+        run: |
+          BASE_TAG=$(date +'v%Y.%m.%d')
+          
+          LAST_TAG=$(git tag -l "${BASE_TAG}*" | sort -V | tail -n 1)
+          
+          if [ -z "$LAST_TAG" ]; then
+            # 同じ日付のタグが存在しない場合
+            TAG="${BASE_TAG}.1"
+          else
+            # 同じ日付のタグが存在する場合、サブバージョンをインクリメント
+            LAST_SUB_VERSION=$(echo $LAST_TAG | awk -F. '{print $NF}')
+            NEXT_SUB_VERSION=$((LAST_SUB_VERSION + 1))
+            TAG="${BASE_TAG}.${NEXT_SUB_VERSION}"
+          fi
+          
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: 'package.json'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: build pdf
+        run: npm run build:pdf
+      
+      - name: Create and push tag
+        run: |
+          git tag ${{ steps.calver.outputs.tag }}
+          git push origin ${{ steps.calver.outputs.tag }}
+      
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./docs/index.pdf
+          tag_name: ${{ steps.calver.outputs.tag }}
