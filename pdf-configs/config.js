@@ -18,13 +18,13 @@ module.exports = {
           font-size: 14px;
           margin: 0 20mm;
           width: 100%;
-          font-family: sans-serif;
+          font-family: "Segoe UI", Arial, freesans, sans-serif;
         }
 
         footer {
           margin: 0 auto;
           font-size: 14px;
-          font-family: sans-serif;
+          font-family: "Segoe UI", Arial, freesans, sans-serif;
         }
       </style>
       <header>
