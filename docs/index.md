@@ -9,25 +9,24 @@
 
 ## スキル
 
-### 言語
+### メイン技術スタック
 
-- Ruby（5 年）
-- TypeScript / JavaScript
-- GraphQL
+- Ruby（5年） / Ruby on Rails（5年）
+  - 複数のRailsバージョン（5-7系）での開発・運用経験あり
 
-### フレームワーク
+### その他の技術経験
 
-- Ruby on Rails（5-7 系）（5 年）
-- React
-- Vue.js（2 系）
-
-### インフラ・開発環境
-
-- AWS（ECS, EC2, RDS 等）
-- Terraform
-- Docker
-- GitHub Actions / Circle CI
-- PostgreSQL / MySQL
+- フロントエンド
+  - React / TypeScript
+- API開発
+  - GraphQL
+- インフラ・開発環境
+  - AWS（ECS, EC2, RDS 等）
+  - Terraform
+  - Docker
+  - GitHub Actions / Circle CI
+- データベース
+  - PostgreSQL / MySQL
 
 ### 情報共有
 
@@ -36,13 +35,15 @@
 - Google Workspace
 - Gather / Google Meet / Zoom
 
-## 自己 PR
+### 経歴要約
 
-Web開発5年の経験を通じて、バックエンド、フロントエンド、インフラまでの幅広い開発に携わってきました。特にRuby on Railsを用いたサーバーサイド開発を得意としています。
+2019年に受託開発の会社に入社しエンジニアとしてのキャリアをスタートしました。
+入社後、2年ほど企業向けシステムの開発をしていました。
+その後はスポーツ系のプラットフォームを開発するスタートアップに入社し、自社開発と開発支援を行い現在に至ります。
 
 ## 強み
 
-- バックエンド、フロントエンド、インフラまでの幅広い開発経験
+- バックエンドを軸足に、フロントエンド、インフラまでの幅広い開発経験
 - 考えることが好きなのである程度大きな設計を任せてもらい、設計～実装まで自走しながらその過程を楽しめる
 - 3 年以上のフルリモート開発経験があり、Slack/Notion 等の非同期コミュニケーションを前提とした開発の進め方ができる
 
